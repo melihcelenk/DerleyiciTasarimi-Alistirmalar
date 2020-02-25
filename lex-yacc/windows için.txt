@@ -1,0 +1,6 @@
+https://cygwin.com/install.html
+cygwin64 yükleme ekranında flex, bison ve gcc paketleri de seçilip yüklendikten sonra cygwin64 terminali üzerinde aşağıdaki komutlar girilir:
+
+flex abc.l
+yacc -d abc.y
+cc y.tab.c lex.yy.c -lfl
